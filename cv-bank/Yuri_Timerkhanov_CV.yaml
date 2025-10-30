@@ -1,0 +1,249 @@
+cv:
+  name: Yuri Timerkhanov
+  title: Senior DevOps Engineer
+  email: yutimer@gmail.com
+  phone: "+60 12 443 2048"
+  location: Malaysia
+  social_networks:
+    - network: LinkedIn
+      username: ytimerkhanov
+    - network: GitHub
+      username: yurictl
+  sections:
+    summary:
+      - bullet: Skilled professional with 20 years of diverse tech experience, including 8+ years as a DevOps Engineer.
+      - bullet: Automated AWS infrastructure; cut delivery 2–3× and saved $100K with FinOps.
+      - bullet: Built CI/CD with Terraform and GitHub Actions; 30% faster releases.
+      - bullet: Apply AI in DevOps for CI/CD summaries, docs, and cost insights.
+      - bullet: Ran HA Oracle/Postgres clusters with 99.95% uptime.
+      - bullet: Holds a degree in mathematics.
+    technical_skills:
+      - label: Programming languages
+        details: Python
+      - label: Markup languages
+        details: HTML, XML, Markdown
+      - label: Query languages
+        details: SQL
+      - label: Scripting languages
+        details: Bash, Ansible
+      - label: Clouds
+        details: AWS, Azure
+      - label: AWS tools
+        details: EC2, S3, IAM, ECS, EKS, Aurora RDS, ALB, VPC, SQS
+      - label: Databases
+        details: Oracle, PostgreSQL, AuroraDB, DynamoDB, MongoDB
+      - label: Containers
+        details: Docker, Kubernetes, Helm, Kustomize, ArgoCD, EKS, AKS
+      - label: CI/CD Tools
+        details: GitLab, GitHub, Jenkins, Azure DevOps, Bitbucket
+      - label: Infrastructure as Code
+        details: Terraform, CloudFormation
+      - label: Monitoring and logging
+        details: Prometheus, Grafana, ELK, CloudWatch
+      - label: OS's
+        details: Linux
+      - label: Methodologies
+        details: Scrum/Agile
+    certifications:
+    - bullet: "CKA: Certified Kubernetes Administrator"
+    - bullet: "AWS Certified Solutions Architect – Associate"
+    - bullet: "AWS Certified AI Practitioner"
+    - bullet: "AWS Certified SysOps Administrator – Associate"
+    experience:
+    - company: Quantori
+      position: Senior DevOps Engineer
+      start_date: 2024-11
+      end_date: present
+      location: ''
+      environment: "Terraform, Terratest, GitHub Actions, Roadie, Aurora, PostgreSQL, Oracle"
+      highlights:
+      - "Built from scratch a unified CI/CD and end-to-end testing framework for 30+ Terraform modules, reducing development time by 2–3× through standardized workflows and reusable Terratest patterns"
+      - "Standardized multi-database (Aurora, PostgreSQL, Oracle) provisioning and configuration, cutting operational overhead by ~40% and minimizing human-error risk across environments"
+      - "Automated Day-0 database setup via GitHub Actions and Roadie templates, enabling developers to instantly obtain ready-to-use databases and eliminating manual provisioning steps"
+      - "Led and streamlined technical interview process (unified questions, evaluation forms, and feedback templates) improving interview throughput and TA pipeline efficiency by ~30%"
+      - "Contributed to internal Cloud/DevOps School: co-developed materials and practical labs, helping establish a repeatable onboarding source of junior DevOps talent"
+      - "Championed AI-driven practices across engineering workflows (CI/CD summarization, automated documentation, AI-assisted CV adaptation)"
+    - company: EPAM
+      position: Senior DevOps Engineer
+      start_date: 2021-06
+      end_date: 2024-11
+      location: ''
+      environment: "Terraform, Terragrunt, EKS, AKS, Vault, Consul, Jenkins, Azure OpenAI API, Prometheus, Grafana, CloudFormation"
+      highlights:
+      - "Reduced annual cloud costs by $100,000 by optimizing backup policies and implementing targeted recommendations"
+      - "Led DevOps operations for a portfolio of 6 projects, refining cloud infrastructure and modernizing CI/CD pipelines, achieving 30% faster deployments, client satisfaction, and effective knowledge transfers to ensure project continuity"
+      - "Enhanced software delivery by implementing and optimizing CI/CD pipelines. Increased release frequency up to 10x"
+      - "Architected complex IaC solutions, migrated legacy CloudFormation resources, and developed reusable Terraform modules, resulting in 40% faster resource provisioning and 95% infrastructure code coverage"
+      - "Automated Release Notes generation for Terraform modules using Azure OpenAI API, improving ops teams' migration experience"
+      - "Led implementation of Prometheus and Grafana as open-source alternatives, achieving 70% cost savings on monitoring tools and improving system visibility"
+      - "Technical interviewer, conducted more than 20 interviews in 2024"
+    - company: Sber
+      position: Senior System Engineer
+      start_date: 2015-01
+      end_date: 2021-06
+      location: ''
+      environment: "Ansible, Jenkins, Python, Bitbucket, Linux, Oracle, PostgreSQL"
+      highlights:
+      - "Developed full automation across the bank's database landscape, deploying Oracle and Postgres environments. Cut deployment time for over 3000 databases from two weeks to 2 hours"
+      - "Managed over 5000 Oracle DB environments, enhancing automation with SQL procedures and Ansible, leading to a 20% reduction in manually processed requests"
+      - "Built self-service portal empowering application administrators and reducing manual operational overhead"
+      - "Led bankwide testing environment automation and support operations"
+    - company: MegaFon
+      position: System Engineer
+      start_date: 2009-02
+      end_date: 2015-01
+      location: ''
+      environment: "Oracle RAC, Oracle Standby, Golden Gate replication, Linux"
+      highlights:
+      - "Managed a production Oracle RAC at the regional level for over 1 million users, maintaining uptime above 99.95%"
+      - "Supported telecommunications infrastructure for 77M subscribers"
+      - "Implemented high availability using Oracle RAC and Golden Gate replication"
+      - "Managed mission-critical database systems for telecommunications operator"
+    - company: Rostelecom
+      position: System Administrator
+      start_date: 2005-01
+      end_date: 2008-12
+      location: ''
+      environment: "Linux, Database systems"
+      highlights:
+      - "Managed systems infrastructure for GSM provider serving over 9M subscribers"
+      - "Maintained critical telecommunications systems and infrastructure"
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-03-01'
+  bold_keywords: []
