@@ -207,8 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # RenderCV output files
-rendercv-cvs/rendercv_output/
-*.pdf
-*.png
-*.html
-*.typ
+rendercv-cvs/rendercv_output/*.pdf
+rendercv-cvs/rendercv_output/*.png
+rendercv-cvs/rendercv_output/*.html
+rendercv-cvs/rendercv_output/*.typ
+rendercv-cvs/rendercv_output/*.pdf

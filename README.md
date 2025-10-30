@@ -2,6 +2,8 @@
 
 **From manual CV editing chaos to automated, error-free resume generation.**
 
+![Comparison preview](docs/comp.png)
+
 ## The Problem
 
 **Manual CV editing is a minefield:**
